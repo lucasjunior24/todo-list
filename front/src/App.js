@@ -1,5 +1,6 @@
 import React from 'react'
 import { BrowserRouter } from 'react-router-dom'
+// const history = require('istory').createBrowserHistory
 
 import 'bootstrap/dist/css/bootstrap.min.css'
 import 'font-awesome/css/font-awesome.min.css'
