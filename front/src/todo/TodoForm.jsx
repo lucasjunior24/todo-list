@@ -41,7 +41,7 @@ class TodoForm extends Component {
                             onClick={() => add(description) }
                         />
                         <IconButton styles='info' icon='search'
-                            onClick={() => search()}
+                            onClick={search}
                         />
                         <IconButton icon='close' className='gray'
                             onClick={() => clear()}
